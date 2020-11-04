@@ -1,5 +1,9 @@
 //
 // Created by zzhou on 03.11.20.
+// 核心思想：
+// 1. 用 hashtable 做buffer提高检索速度到O(n)
+// 2. map的键值即 hashtable hashkey 有不重复元素集合的功能
+// 3. 善用补集提高2倍搜索速度
 //
 #include <map>
 #include <vector>
@@ -16,23 +20,6 @@ vector<int> twoSum(vector<int>& nums, int target){
             buffer[nums[i]] = i;
         }
         return {};
-}
-
-struct ListNode {
-     int val;
-     ListNode *next;
-     ListNode() : val(0), next(nullptr) {}
-     ListNode(int x) : val(x), next(nullptr) {}
-     ListNode(int x, ListNode *next) : val(x), next(next) {}
- };
-
-ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-    ListNode* res = new ListNode();
-    while (l1->next != nullptr && l2->next != nullptr)
-    {
-        /* code */
-    }
-
 }
 
 int main(int argc, char* argv[]){
