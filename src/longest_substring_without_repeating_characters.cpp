@@ -19,28 +19,23 @@ int lengthOfLongestSubstring(string s) {
 
     map<char, int> buffer;
     int max_len = 1;  // if not empty, there is at least 1 char
-
-    for (int i=0; i<s.size(); i++){  // i 0-7
-        buffer[s[i]] = i;
-        for (int j = i+1; j < s.size(); j++){
-            // use hash table to search buffered substr
-            if (buffer.count(s[j]) != 0){
-                max_len = (j-i) > max_len ? (j-i) : max_len;
-                break;
-            }else{
-                buffer[s[j]] = j;
-                max_len = (j+1-i) > max_len ? (j+1-i) : max_len;
-            }            
+    int j = 0;  // pointer to first buffer element
+    for (int i=0; i < s.size(); i++){
+        while (buffer.find(s[i]) != buffer.end()){ // there current element is a repeated element
+            buffer.erase(s[j]);  // delete buffer from start until no repeat
+            j += 1;
         }
-        buffer.clear();
+        buffer[s[i]] = i;
+        max_len = (i-j+1) > max_len ? (i-j+1) : max_len;
     }
+
     return max_len;
 }
 
 void test(string ss)
 {
     int max_len = lengthOfLongestSubstring(ss);
-    std::cout << max_len << std::endl;
+    std::cout << ss << ": " << max_len << std::endl;
 }
 
 int main(int argc, char* argv[])
@@ -52,4 +47,6 @@ int main(int argc, char* argv[])
     test(" ");
     std::cout << "=========" << std::endl;
     test("au");
+    std::cout << "=========" << std::endl;
+    test("dvdf");
 }
