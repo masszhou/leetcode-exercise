@@ -1,3 +1,6 @@
+// summary:
+// 1. practice DP with table, bottom to up
+
 #include <vector>
 #include <string>
 #include <iostream>

@@ -1,9 +1,9 @@
 //
 // Created by zzhou on 03.11.20.
-// 核心思想：
-// 1. 用 hashtable 做buffer提高检索速度到O(n)
-// 2. map的键值即 hashtable hashkey 有不重复元素集合的功能
-// 3. 善用补集提高2倍搜索速度
+// summary:
+// 1. use hashtable as buffer to reduce search complexity to O(n)
+// 2. hash key is a nature set
+// 3. use complementary set to reduce search space
 //
 #include <map>
 #include <vector>

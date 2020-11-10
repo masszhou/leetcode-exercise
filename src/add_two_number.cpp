@@ -1,6 +1,5 @@
-// 总结
-// 1 考虑到数字很大，不能使用系统整型变量，要用链表来维持
-// 2 类似竖式的运算，不受系统位数限制
+// summary
+// 1. do add like bit operation with string or linked list, since the results need to be unlimited by system.
 
 #include <iostream>
 

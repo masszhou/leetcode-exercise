@@ -1,3 +1,7 @@
+// summary:
+// 1. ideal should find the split boundary without merge two list, if the list is huge
+// 2. here I only used a lazy implementation, merged lists then sort.
+
 #include <vector>
 #include <iostream>
 #include <algorithm>

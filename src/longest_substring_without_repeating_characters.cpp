@@ -1,3 +1,7 @@
+// summary:
+// 1. maintain a non-repeat buffer, which support hash index
+// 2. sliding window search, a slightly similar philosophy with simple DP
+
 #include <string>
 #include <iostream>
 #include <map>

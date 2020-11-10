@@ -1,4 +1,5 @@
-// basic DP, bottom to up
+// summary:
+// 1. fundamental DP practice, bottom to up
 #include <vector>
 #include <iostream>
 using namespace std;
