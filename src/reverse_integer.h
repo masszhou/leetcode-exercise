@@ -36,7 +36,7 @@ public:
         for (std::string::reverse_iterator rit=s.rbegin(); rit!=s.rend(); ++rit)
             res += *rit;
 
-        long tmp = std::stol(res);
+        int64_t tmp = std::stoll(res);
         if (tmp<-2147483648 || tmp > 2147483648)
             tmp = 0;
         return static_cast<int>(tmp);
