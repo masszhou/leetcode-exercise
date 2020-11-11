@@ -9,6 +9,7 @@
 #include "longest_palindromic_substring.h"
 #include "two_sum.h"
 #include "zigzag_conversion.h"
+#include "reverse_integer.h"
 
 int main(int argc, char* argv[]){
 
@@ -19,6 +20,7 @@ int main(int argc, char* argv[]){
     leetcode::LongestPalidromicSubString::test();
     leetcode::TwoSum::test();
     leetcode::ZigZagConversion::test();
+    leetcode::ReverseInteger::test();
 
     return 0;
 }
