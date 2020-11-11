@@ -1,10 +1,4 @@
 project(leetcode)
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(two_sum src/two_sum.cpp)
-add_executable(add_two_number src/add_two_number.cpp)
-add_executable(longest_substring_without_repeating_characters src/longest_substring_without_repeating_characters.cpp)
-add_executable(find_median_sorted_arrays src/find_median_sorted_arrays.cpp)
-add_executable(house_robber src/house_robber.cpp)
-add_executable(longest_palindromic_substring src/longest_palindromic_substring.cpp)
-add_executable(zigzag_conversion src/zigzag_conversion.cpp)
+add_executable(leetcode_exercise src/main.cpp)
