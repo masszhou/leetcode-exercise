@@ -10,6 +10,7 @@
 #include "two_sum.h"
 #include "zigzag_conversion.h"
 #include "reverse_integer.h"
+#include "string_to_integer.h"
 
 int main(int argc, char* argv[]){
 
@@ -21,6 +22,7 @@ int main(int argc, char* argv[]){
     leetcode::TwoSum::test();
     leetcode::ZigZagConversion::test();
     leetcode::ReverseInteger::test();
+    leetcode::StringToInteger::test();
 
     return 0;
 }
