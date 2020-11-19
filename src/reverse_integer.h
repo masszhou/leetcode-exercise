@@ -43,9 +43,12 @@ public:
     }
 
     static void test(){
-        int x = -2147483648;
-        int64_t res = ReverseInteger::solve(x);
-        std::cout << res << std::endl;
+        std::cout << ">>>> ReverseInteger:" << std::endl;
+        int res;
+        res = ReverseInteger::solve(-2147483648);
+        std::cout << "-2147483648 -> " << res << std::endl;
+        res = ReverseInteger::solve(42);
+        std::cout << "42 -> " << res << std::endl;
     }
 };
 
