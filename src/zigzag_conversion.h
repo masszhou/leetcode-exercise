@@ -13,7 +13,7 @@ using std::string;
 namespace leetcode{
 
 // summary:
-// 1. fundamental DP practice, bottom to up
+// 1. zigzag
 class ZigZagConversion
 {
 public:
