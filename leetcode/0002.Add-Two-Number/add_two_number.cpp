@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_ADD_TWO_NUMBER_H
-#define LEETCODE_ADD_TWO_NUMBER_H
 #include <vector>
 #include <iostream>
 
@@ -109,4 +107,9 @@ public:
 
 } // leetcode
 
-#endif //LEETCODE_ADD_TWO_NUMBER_H
+int main(int argc, char* argv[]){
+
+    leetcode::AddTwoNumbers::test();
+
+    return 0;
+}

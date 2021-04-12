@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_HOUSE_ROBBER_H
-#define LEETCODE_HOUSE_ROBBER_H
 
 #include <vector>
 #include <iostream>
@@ -51,5 +49,9 @@ public:
 
 } // leetcode
 
+int main(int argc, char* argv[]){
 
-#endif //LEETCODE_HOUSE_ROBBER_H
+    leetcode::HouseRobber::test();
+
+    return 0;
+}

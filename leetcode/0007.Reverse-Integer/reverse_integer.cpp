@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_REVERSE_INTEGER_H
-#define LEETCODE_REVERSE_INTEGER_H
 #include <vector>
 #include <string>
 #include <iostream>
@@ -53,4 +51,10 @@ public:
 };
 
 } // leetcode
-#endif //LEETCODE_REVERSE_INTEGER_H
+
+int main(int argc, char* argv[]){
+
+    leetcode::ReverseInteger::test();
+
+    return 0;
+}

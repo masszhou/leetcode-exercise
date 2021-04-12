@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_TWO_SUM_H
-#define LEETCODE_TWO_SUM_H
 #include <vector>
 #include <map>
 #include <iostream>
@@ -51,4 +49,9 @@ public:
 
 } // leetcode
 
-#endif //LEETCODE_TWO_SUM_H
+int main(int argc, char* argv[]){
+
+    leetcode::TwoSum::test();
+
+    return 0;
+}

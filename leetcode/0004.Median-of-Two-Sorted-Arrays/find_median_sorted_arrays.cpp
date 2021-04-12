@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_FIND_MEDIAN_SORTED_ARRAYS_H
-#define LEETCODE_FIND_MEDIAN_SORTED_ARRAYS_H
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -59,4 +57,9 @@ public:
 
 } // leetcode
 
-#endif //LEETCODE_FIND_MEDIAN_SORTED_ARRAYS_H
+int main(int argc, char* argv[]){
+
+    leetcode::FindMedianSortedArrays::test();
+
+    return 0;
+}

@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_STRING_TO_INTEGER_H
-#define LEETCODE_STRING_TO_INTEGER_H
 #include <vector>
 #include <iostream>
 
@@ -59,4 +57,10 @@ public:
 
 } // leetcode
 
-#endif //LEETCODE_STRING_TO_INTEGER_H
+
+int main(int argc, char* argv[]){
+
+    leetcode::StringToInteger::test();
+
+    return 0;
+}

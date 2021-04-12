@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_LONGEST_PALINDROMIC_SUBSTRING_H
-#define LEETCODE_LONGEST_PALINDROMIC_SUBSTRING_H
 #include <vector>
 #include <string>
 #include <iostream>
@@ -73,4 +71,9 @@ public:
 };
 } //leetcode
 
-#endif //LEETCODE_LONGEST_PALINDROMIC_SUBSTRING_H
+int main(int argc, char* argv[]){
+
+    leetcode::LongestPalidromicSubString::test();
+
+    return 0;
+}

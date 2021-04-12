@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_ZIGZAG_CONVERSION_H
-#define LEETCODE_ZIGZAG_CONVERSION_H
 #include <vector>
 #include <iostream>
 
@@ -44,4 +42,10 @@ public:
 };
 
 } // leetcode
-#endif //LEETCODE_ZIGZAG_CONVERSION_H
+
+int main(int argc, char* argv[]){
+
+    leetcode::ZigZagConversion::test();
+
+    return 0;
+}

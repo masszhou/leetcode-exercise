@@ -2,8 +2,6 @@
 // Created by zzhou on 11.11.20.
 //
 
-#ifndef LEETCODE_LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS_H
-#define LEETCODE_LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS_H
 #include <map>
 #include <iostream>
 
@@ -48,4 +46,9 @@ public:
 
 } // leetcode
 
-#endif //LEETCODE_LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS_H
+int main(int argc, char* argv[]){
+
+    leetcode::LongestSubStringWithoutRepeatingCharacters::test();
+
+    return 0;
+}
