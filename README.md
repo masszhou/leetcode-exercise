@@ -1,6 +1,6 @@
 # my leetcode practices
 
-* [0001 two sum](leetcode/0001.Two-Sum/README.me)
+* [0001 two sum](leetcode/0001.Two-Sum/README.md)
 * [0002 add two number](leetcode/0002.Add-Two-Number/README.md)
 * [0003 longest substring without repeating characters](leetcode/0003.Longest-Substring-Without-Repeating-Characters/README.md)
 * [0004 median of two sorted array](leetcode/0004.Median-of-Two-Sorted-Arrays/README.md)
